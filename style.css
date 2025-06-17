@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-image: url("../Users/Anamarija/Downloads/pozadina.jpg");
+background-size: cover;
+background-position: center;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+text-align: center;
+}
+@font-face {
+	font-family:"pAnamarijaMarcius";
+	src:url("pAnamarijaMarcius.ttf")format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.moj-naslov{
+	font-family: "pAnamarijaMarcius", sans-serif;
+}
+
+.container {
+background-color: rgba(255, 255, 255, 0.85);
+padding: 30px;
+border-radius: 10px;
+max-width: 900px;
+width: 90%;
+}
+
+h1 {
+font-size: 2.5em;
+margin-bottom: 15px;
+font-family: 'TvojFont'; /* Ako koristiš vlastiti font */
+}
+
+h2 {
+font-size: 1.5em;
+margin: 15px 0;
+}
+
+p {
+margin-bottom: 20px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 30px;
+padding: 0;
+margin-top:0;
+}
+
+nav li{
+	display: block;
+	margin-bottom: 10px;
+}
+
+nav a {
+text-decoration: none;
+color: #000;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+nav a:hover {
+color: #007acc;
+}
+
+img, video {
+margin: 10px;
+border-radius: 5px;
+}
+
